@@ -1,0 +1,182 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 200px;
+}
+
+.container {
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  display: flex;
+}
+
+.home_div {
+  margin-left: 45%;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: 15%;
+  color: #8f8a99;
+  white-space: nowrap;
+}
+
+ul li:hover {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+section {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  margin-top: 5%;
+  column-gap: 25%;
+  font-weight: 700;
+}
+
+.header_div {
+  width: 445px;
+  margin-top: 7%;
+  margin-left: 3%;
+}
+
+.header_div h1 {
+  font-size: 48px;
+  text-align: start;
+  position: relative;
+  margin-left: 10%;
+}
+
+.button-consult {
+  width: 200px;
+  border-radius: 55px;
+  background-color: #458ff6;
+  color: white;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 40%;
+  margin-top: 4%;
+}
+blockquote,
+.bq {
+  color: #8f8a99;
+  text-align: start;
+}
+
+.bq {
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+
+.emergency {
+  width: 280px;
+  position: relative;
+  right: 20%;
+}
+
+.button-learn {
+  width: 200px;
+  border-radius: 60px;
+  background-color: white;
+  color: #458ff6;
+  height: 56px;
+  border-color: #458ff6;
+  cursor: pointer;
+  margin: 70px 0;
+}
+
+.option {
+  cursor: pointer;
+  height: 260px;
+  border-radius: 20px;
+  background: #fff;
+  text-align: left;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  padding: 47px;
+  width: 260px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  justify-content: center;
+}
+.option:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.option__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.option_img img {
+  width: 90px;
+  height: 90px;
+}
+.option_text {
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 100px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.medicin {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  margin: 0 232px;
+}
+
+.medik {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.medik_logo {
+  display: flex;
+  align-items: center;
+}
+
+.medik2,
+.medik3,
+.medik4 {
+  width: 250px;
+}
+
+.medik2 {
+  width: 270px;
+}
